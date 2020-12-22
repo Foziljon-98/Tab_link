@@ -1,0 +1,500 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('../img/bagground.jpg') center / cover;
+    color: rgb(39, 37, 37);
+}
+
+header {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conainer {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conainer img {
+    width: 100px;
+    transition: .2s linear;
+}
+
+.conainer img:hover {
+    opacity: .7;
+}
+
+.conainer a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(226, 200, 200);
+    transition: .3s linear;
+    font-weight: 800;
+}
+
+.conainer a:hover {
+    color: coral;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line i {
+    font-size: 25px;
+    color: rgb(87, 84, 84);
+}
+
+
+.line hr {
+    width: 500px;
+    height: 1px;
+    background-color: black;
+}
+
+
+main {
+    width: 70%;
+    margin: 0 auto;
+ 
+}
+
+.flex{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(34, 29, 29, .6);
+}
+
+
+.left{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.card  {
+    width: 100%;
+    height: 300px;
+    background: url('../img/sm_full.png') center / cover;
+    border-radius: 10px;
+}
+
+.text_block {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(160, 206, 207);
+    border-radius: 10px;
+}
+
+.text_block .btn {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* carousel */
+
+.carousel {
+    width: 100%;
+    height: 280px;
+    margin: 0 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.carousel-item h3 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 40%;
+    margin: 0 auto;
+}
+
+
+
+.box1 a{
+    margin-top: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: .3s linear;
+}
+
+.box1 a:hover{
+    color: rgb(255, 173, 80);
+}
+
+.box_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.soshial {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soshial .btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+
+.box {
+    margin: 10px 0;
+    width: 300px;
+    
+    border: 1px solid rgb(255, 255, 255);
+    background-color: none;
+    border-radius: 60px;
+    transition: 0.3s linear;
+
+}
+
+.box:hover {
+    background-color: rgb(140, 172, 231);
+    cursor: pointer;
+}
+
+.box h4 a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.box:hover a {
+    color: rgb(255, 173, 80);
+}
+
+.box  p {
+    color: white ;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+.box  p a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.box .fa-whatsapp {
+    color: white;
+    font-size: 30px ;
+    padding-right: 10px;
+    color: green;
+}
+
+.box  .fa-facebook {
+    font-size: 30px ;
+    padding-right: 10px;
+    color: blue;
+} 
+
+
+.box .fa-phone-volume {
+    color: white;
+    font-size: 25px;
+}
+
+.map_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 0;
+    background-color: rgba(39, 35, 35, .7);
+}
+
+footer p {
+    font-size: 25px;
+    margin: 0;
+
+}
+
+footer i {
+    border-radius: 45%;
+    padding: 5px;
+    border: 1px solid rgb(223, 208, 208);
+    margin: 10px;
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1204px ){
+
+    .flex{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .left{
+        width: 100%;
+        display: flex;
+        margin-bottom: 30px;
+        
+    }
+
+    .box_right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    
+}
+@media screen and (max-width: 698px){
+    .soshial {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .card  {
+        width: 100%;
+        height: 280px;
+        background: url('../img/sm_full.png') center  / cover;
+    }
+
+    .soshial {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .soshial .btn {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .box_right h2{
+        font-size: 18px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .map_block h3{
+        font-size: 20px;
+    }
+
+    .box4 h4 {
+        font-size: 18px;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px 0;
+        background-color: rgba(39, 35, 35, .7);
+    }
+    
+    footer p {
+        font-size: 20px;
+        margin: 0;
+    
+}
+
+@media screen and (max-width: 500px){
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .text_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_block a{
+        font-size: 18px;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 200px;
+        margin: 0 5px;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .map {
+        width: 90%;
+        height: 260px;
+        margin: 0 auto;
+        
+    }
+    
+    .map iframe {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 432px){
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .conainer a {
+        font-size: 20px;
+        color: rgb(226, 200, 200);
+        transition: .3s linear;
+        font-weight: 700;
+    }
+
+    .card  {
+        width: 100%;
+        height: 200px;
+        background: url('../img/sm_full.png') center  / cover;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 160px;
+        margin: 0 5px;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 160px;
+        border-radius: 10px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .carousel-item h3 {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 20%;
+        margin: 0 auto;
+    }
+    
+    footer p {
+        font-size: 17px;
+        margin: 0;
+    
+}
+
+@media screen and (max-width: 375px){
+    
+    
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card  {
+        width: 100%;
+        height: 200px;
+        background: url('../img/sm_full.png') center  / cover;
+    }
+
+    .text_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_block a{
+        font-size: 16px;
+    }
+
+    .map {
+        width: 90%;
+        height: 180px;
+        margin: 0 auto;
+        margin: 5px;
+        
+    }
+    
+    .map iframe {
+        width: 100%;
+        height: 180px;
+    }
+}
